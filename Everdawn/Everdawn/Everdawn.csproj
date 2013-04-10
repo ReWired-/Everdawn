@@ -40,5 +40,6 @@
     <Compile Include="Player.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="Program.cs" />
   </ItemGroup>
 </Project>
