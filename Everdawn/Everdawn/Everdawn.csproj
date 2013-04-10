@@ -42,5 +42,6 @@
     <Compile Include="Item.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Text.cs" />
+    <Compile Include="Location.cs" />
   </ItemGroup>
 </Project>
