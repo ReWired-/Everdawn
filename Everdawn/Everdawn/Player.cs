@@ -226,7 +226,7 @@ namespace Everdawn
             }
             else
             {
-                Program.SetError("Item not in inventory");
+                Program.SetError("Item not in inventory!");
             }
         }
 
@@ -248,11 +248,11 @@ namespace Everdawn
 
             //"move", "look", "take", "drop", "use", "inventory", "help"
             Text.WriteLine("\n-- Actions -- \n");
-            Text.WriteLine("move - travel to another location.   usage: move entrance hall (or) m entrance hall");
-            Text.WriteLine("look - look at a location or an item.   usage: look entrance hall (or) look sword (or) l entrance hall (or) l sword");
-            Text.WriteLine("take - pick up an item in a location.   usage: take sword (or) t sword");
-            Text.WriteLine("drop - drop an item from your inventory.   usage: drop sword (or) d sword");
-            Text.WriteLine("use - use an item in your inventory.   usage: use key (or) u key");
+            Text.WriteLine("move - travel to another location.   usage: move alley (or) m alley");
+            Text.WriteLine("look - look at a location or an item.   usage: look alley (or) look knife (or) l alley (or) l knife");
+            Text.WriteLine("take - pick up an item in a location.   usage: take sword (or) t knife");
+            Text.WriteLine("drop - drop an item from your inventory.   usage: drop knife (or) d knife");
+            Text.WriteLine("use - use an item in your inventory.   usage: use key card (or) u key card");
             Text.WriteLine("inventory - show items in your inventory.   usage: inventory (or) i");
             Text.WriteLine("help - show this screen.   usage: help (or) h");
             Text.WriteLine("exit - quit the game.    usage: quit (or) exit");
