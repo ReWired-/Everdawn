@@ -41,5 +41,6 @@
     <Compile Include="Entity.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Text.cs" />
   </ItemGroup>
 </Project>
