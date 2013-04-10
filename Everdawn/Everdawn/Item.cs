@@ -5,13 +5,13 @@ using System.Text;
 
 namespace Everdawn
 {
-	class Item : Entity
+	public class Item : Entity
 	{
 		public bool isHidden = false;
 		public int actionLocationId;
 		public string actionName;
 		
-		public Item (string aName, string aDesc, int aActionLocationId, bool aIsHidden = false, string aActionName = "use")
+		public Item(string aName, string aDesc, int aActionLocationId, bool aIsHidden = false, string aActionName = "use")
 			:base(aName, aDesc)
 		{
 			actionLocationId = aActionLocationId;

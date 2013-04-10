@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Project1
+namespace Everdawn
 {
-    class Location : Entity
+    public class Location : Entity
     {
-        // the world map
+        // The world map
         //public int indexId;
         public bool isHidden = false;
         public List<Item> items = new List<Item>();
         public List<Int32> exits = new List<Int32>();
 
         /// <summary>
-        /// Constructor!
+        /// Constructor
         /// </summary>
         /// <param name="aIndexId"></param>
         /// <param name="aName"></param>
